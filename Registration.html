@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Form</title>
+<style>
+body {
+	background-image:
+		url('https://i.pinimg.com/564x/47/0a/19/470a19a36904fe200610cc1f41eb00d9.jpg');
+	background-size: cover;
+}
+
+#login {
+	background: linear-gradient(45deg, darkslategrey, darkblue, brown);
+	width: 300px;
+	text-align: center;
+	margin: 160px auto;
+	padding: 20px;
+	border-radius: 20px;
+	box-shadow: 0 0 10px blue;
+}
+
+.form-group input[type="text"], .form-group input[type="password"],
+	.form-group input[type="email"] {
+	margin-top: 28px;
+	width: 230px;
+	height: 30px;
+	border: none;
+	outline: none;
+	background: none;
+	color: white;
+	border-bottom: 2px solid white;
+}
+
+::placeholder {
+	color: white;
+}
+
+.form-group input[type="submit"] {
+	margin-top: 20px;
+	background: linear-gradient(45deg, blue, darkred, green);
+	width: 240px;
+	padding: 7px 25px;
+	color: white;
+	font-weight: bold;
+	border: none;
+	outline: none;
+	border-radius: 20px;
+}
+
+.form-group input[type="submit"]:hover {
+	box-shadow: 0 0 10px white;
+	cursor: pointer;
+}
+
+#logo {
+	margin-top: -70px;
+}
+
+#logo img {
+	border-radius: 50%;
+	border: 10px solid darkred;
+	box-shadow: 0 0 10px white;
+}
+</style>
+</head>
+<body>
+	<div id="login">
+		<div id="logo">
+			<img
+				src="https://scontent.fblr2-1.fna.fbcdn.
+				net/v/t1.6435-9/56644963_795603857484617_3475259421620174848
+				_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=6UjeJkTYh78AX96q
+				suY&_nc_oc=AQmIQPlim7w1Yr--EjcmJfaU6Nxs1Z-7AO8VpVrKy4Y0uNUm8
+				VUJsXfDqqYyyhOm58I&_nc_ht=
+				scontent.fblr2-1.fna&oh=daa79c45721e4e17cf4f3902f873237d&oe=6162BFBF"
+				width="100px" height="100px">
+		</div>
+		<form action="regis">
+
+			<div class="form-group">
+				<input type="text" name="username" placeholder="Enter UserName">
+			</div>
+
+			<div class="form-group">
+				<input type="Email" name="emailid" placeholder="Enter Email">
+			</div>
+
+			<div class="form-group">
+				<input type="text" name="password" placeholder="Enter Password">
+			</div>
+
+			<div class="form-group">
+				<input type="text" name="mobileno" placeholder="Enter Mobile no">
+			</div>
+
+			<div class="form-group">
+				<input type="text" name="cityname" placeholder="Enter city ">
+			</div>
+
+			<div class="form-group">
+				<input type="submit">
+			</div>
+
+			<div>
+				<a href="home.html">Back</a>
+			</div>
+
+		</form>
+	</div>
+</body>
+</html>
